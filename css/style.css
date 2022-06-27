@@ -1,0 +1,250 @@
+/* fonts */
+@font-face {
+    font-family: CodaCaption-ExtraBold;
+    src: url(../fonts/CodaCaption-ExtraBold.ttf);
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: CodaCaption-ExtraBold;
+}
+/* body */
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+/* topbar */
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    float:left;
+    color:#fdfdfd ;
+    margin: 0;
+    margin-top: 6px;
+}
+#social-icon{
+    float: right;
+}
+.fa-brands{
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+.fa-facebook{
+    padding: 7px 8px;
+
+}
+.fa-whatsapp{
+    padding: 7px 9px;
+}
+.fa-instagram{
+    padding: 7px 9px;
+}
+#logobar img{
+    width: 200px;
+    margin: 25px 0px ;
+}
+/* nav bar */
+#navbar{
+    background-color: #ee5253;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* poster */
+#poster{
+    background-image: url(../image/poster.jpg) ;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+/* why Us */
+#whyussection{
+    overflow: auto;
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+.red-heading{
+    color:#ee5253;
+    text-align: center;
+    font-size: 35px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    /* height: 600px; */
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+
+}
+.section33 h2{
+    color: #ee5253;
+}
+.section33 h3{
+    color: #363636;
+}
+.img-icon{
+    height: 150px;
+    object-fit:cover;
+    width: 150px;
+}
+/* contach */
+#contact-container{
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    width: 30%;
+    float: left;
+    padding-top: 70px;
+}
+#Contach-btn{ 
+    background-color: white;
+    color: #ee5253;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size:18px ;
+    font-weight: bold;
+}
+/* Bolg */
+.img-icon2 {
+    height: 200px;
+    object-fit: cover;
+    width: 300px;
+    margin-top: 25px;
+  }
+  .box {
+      transition: box-shadow 0.3s;
+      background: #fff;
+      float: left;
+    }
+    .box:hover {
+      box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+    }
+  .section33 a {
+    color: #ee5253;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: CodaCaption-ExtraBold;
+    font-size: 14px;
+  }
+
+  .pra{
+    color: black;
+  }
+  
+  /* Subcribe */
+  #subscribe-section{
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .section50{
+    width: 50%;
+    float: left;
+  }
+  .section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+  }
+  .section50 form{
+    padding-top: 25px;
+  }
+  .section50 input[type="email"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #ee5253;
+    margin-right: 25px;
+    border: 0;
+    width: 45%;
+  }
+  .section50 input[type="submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #ee5253;
+    border: 0;
+  }
+  
+
+/* footer */
+#imp-link{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration:underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0;
+
+}
+#footer-menu li{
+    padding-bottom: 10px;
+}
+#footer-menu li a{
+    text-decoration: none ;
+    color: white;
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: #cdcdcd;
+    padding: 10px;
+}
